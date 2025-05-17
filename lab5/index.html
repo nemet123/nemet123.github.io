@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MY CV</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <!-- LEFT SIDE -->
+        <div class="sidebar">
+            <img src="photos/profile.jpg" alt="" class="profile-picture"/>
+
+            <!-- CONTACT INFO -->
+            <div class="left-acc-container">
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/contact.png" alt="" class="btn-icon"> CONTACT
+                    </button>
+                    <div class="accordion-panel" id="contactInfo">
+                        <div><img src="photos/phone.png" alt="" class="icon"><input type="text" class="phone"></div>
+                        <div><img src="photos/email.png" alt="" class="icon"><input type="text" class="email"></div>
+                        <div><img src="photos/location.png" alt="" class="icon"><input type="text" class="address"></div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/social-media.png" alt="" class="btn-icon"> SOCIAL MEDIA
+                    </button>
+                    <div class="accordion-panel" id="socialMedia"></div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/education.png" alt="" class="btn-icon"> EDUCATION
+                    </button>
+                    <div class="accordion-panel" id="educationInfo"></div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/skill.png" alt="" class="btn-icon"> SKILLS
+                    </button>
+                    <div class="accordion-panel" id="skillsInfo"></div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/language.png" alt="" class="btn-icon"> LANGUAGES
+                    </button>
+                    <div class="accordion-panel" id="languagesInfo"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="main-content">
+            <button id="editBtn" class="edit-button">Edit</button>
+            <button id="resetBtn" class="reset-button">Reset</button>
+            <h1 id="userName"></h1>
+            <h3 id="userTitle"></h3>
+            <hr class="title-line" />
+
+            <div class="right-acc-container">
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/profile.png" alt="" class="btn-icon"> PROFILE
+                    </button>
+                    <div class="accordion-panel" id="profileInfo"></div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/work-experience.png" alt="" class="btn-icon"> WORK EXPERIENCE
+                    </button>
+                    <div class="accordion-panel" id="workExperience"></div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/reference.png" alt="" class="btn-icon"> REFERENCE
+                    </button>
+                    <div class="accordion-panel" id="referenceInfo"></div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/certificate.png" alt="" class="btn-icon"> CERTIFICATIONS
+                    </button>
+                    <div class="accordion-panel" id="certificationsInfo"></div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <img src="photos/project.png" alt="" class="btn-icon"> PROJECTS
+                    </button>
+                    <div class="accordion-panel" id="projectsInfo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

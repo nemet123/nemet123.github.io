@@ -1,0 +1,52 @@
+{
+    "name": "NEMƏT <span class='highlight'>BABAYEV</span>",
+    "title": "STUDENT",
+    "contact": [
+        { "icon": "phone.png", "text": "+994555553283" },
+        { "icon": "email.png", "text": "babayevnemt269@gmail.com" },
+        { "icon": "location.png", "text": "Azerbaijan/Baku" }
+    ],
+    "socialMedia": [
+        { "icon": "instagram.png", "text": "babayev_777n" },
+        { "icon": "tik-tok.png", "text": "nemtbabayev2" },
+        { "icon": "github.png", "text": "GitHub" }  
+    ],
+    "education": [
+        { "period": "2013 - 2024", "school": "Khachmaz city secondary school No. 1 named after Mehman Babayev" },
+        { "period": "2024 - 2025", "school": "AzTU - Information Security" }
+    ],
+    "skills": ["RESTful API Integration", "Git & GitHub", "Adaptability"],
+    "languages": ["Azerbaijani", "English", "Turkish"],
+    "profile": "Energetic and resourceful problem solver with a background in software engineering and UX design. Skilled in bridging the gap between functional code and user-friendly interfaces. Believes in clean code and meaningful user experiences.",
+    "workExperience": [
+        {
+            "title": "Web Developer Intern – WebHive Agency",
+            "details": ["Assisted in developing responsive websites using HTML, CSS, and JavaScript. Integrated third-party APIs and improved site performance. Worked closely with senior developers on real client projects."]
+        },
+        {
+            "title": "Content Creator – Self-employed",
+            "details": ["Produced short-form video content for platforms like TikTok, Instagram, and YouTube Shorts. Grew an audience through consistent posting and trend adaptation. Utilized analytics tools to improve engagement and reach."]
+        }
+    ],
+    "reference": "Mustafa hired me for multiple freelance projects involving short films and promotional content. He can speak to my professionalism, creative direction, and reliability as a video editor.",
+    "certifications": [
+        {
+            "name": "JavaScript Algorithms and Data Structures",
+            "description": "Covers core JavaScript concepts including functions, objects, arrays, recursion, sorting algorithms, and big-O notation. Includes over 300 coding challenges and multiple projects."
+        },
+        {
+            "name": "Introduction to Cybersecurity Tools & Cyber Attacks",
+            "description": "Explores common cyber threats, attack types, cryptographic principles, and key security tools. Designed as a foundational course for aspiring cybersecurity professionals"
+        }
+    ],
+    "projects": [
+        {
+            "name": "AI Chatbot with Python (NLP)",
+            "description": "Built a rule-based chatbot using Python and NLTK. Integrated natural language processing to understand and respond to user queries. Applied basic sentiment analysis and deployed via Tkinter GUI."
+        },
+        {
+            "name": "Responsive CV Webpage",
+            "description": "Designed a modern, mobile-friendly CV webpage with a clean blue-toned layout. Incorporated editable sections and local save functionality using JavaScript. Styled with Flexbox and media queries."
+        }
+    ]
+}

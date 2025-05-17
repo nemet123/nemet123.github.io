@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    width: 86%;
+    font-size: 14px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    flex: 1;
+    min-width: 300px;
+    background-color: #00b670;
+    color: white;
+    padding: 20px;
+    border-radius: 15px 0 0 15px;
+}
+
+.main-content {
+    flex: 2;
+    padding: 30px;
+}
+
+.highlight {
+    color: #00b670;
+}
+
+.title-line {
+    margin: 10px 0 30px 0;
+    height: 3px;
+    background-color: #00b670;
+    border: none;
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+}
+
+.accordion-btn {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #008b56;
+    color: white;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.accordion-btn:hover {
+    background-color: #00a767;
+}
+
+.accordion-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, padding 0.35s ease-in-out;
+    padding: 0 15px;
+    background-color: #005837;
+    border-radius: 0 0 8px 8px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.accordion-panel ul li, p{
+    color: white;
+}
+
+.accordion-panel.active {
+    max-height: 800px; /* We give a value large enough according to the content */
+    padding: 15px 15px;
+    overflow: hidden;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.profile-picture {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.edit-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #008b56;
+    color: white;
+    transition: background-color 0.3s;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+#resetBtn {
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    background-color: #008b56;
+    color: white;
+    transition: background-color 0.3s;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.edit-button:hover {
+    background-color: #00a767;
+}
+
+#resetBtn:hover {
+    background-color: #00a767;
+}
+
+.main-content {
+    position: relative;
+}
+
+[contenteditable="true"] ul li, p{
+    background-color: transparent !important;
+    outline: none;
+    color: white !important;
+}
+
+
